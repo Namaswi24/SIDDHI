@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Analyzer from './pages/Analyzer';
 import About from './pages/About';
 import "./styles/Global.css";
-
+import Footer from './components/Footer';
 function App() {
   return (
     <Router>
@@ -16,6 +16,7 @@ function App() {
           <Route path="/analyzer" element={<Analyzer />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );

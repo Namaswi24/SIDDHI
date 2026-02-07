@@ -1,0 +1,122 @@
+.about-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  color: #1f2937; /* dark slate text */
+  background-color: #ffffff;
+}
+
+/* HERO */
+.about-hero {
+  margin-bottom: 52px;
+}
+
+.about-hero h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+  color: #0f172a; /* near-black */
+}
+
+.about-hero p {
+  font-size: 1.1rem;
+  color: #374151; /* dark gray */
+  max-width: 760px;
+  line-height: 1.7;
+}
+
+/* SECTIONS */
+.about-section {
+  margin-bottom: 52px;
+}
+
+.about-section h2 {
+  font-size: 1.85rem;
+  margin-bottom: 16px;
+  color: #1e3a8a; /* academic navy blue */
+}
+
+.about-section p {
+  font-size: 1.02rem;
+  line-height: 1.8;
+  color: #1f2937;
+  max-width: 900px;
+}
+
+/* SCIENCE LIST */
+.science-list {
+  margin: 18px 0 18px 24px;
+}
+
+.science-list li {
+  margin-bottom: 12px;
+  line-height: 1.65;
+  color: #1f2937;
+}
+
+/* TEAM */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+  margin-top: 28px;
+}
+
+.team-card {
+  background-color: #f8fafc; /* subtle card */
+  border: 1px solid #e5e7eb;
+  padding: 22px;
+  border-radius: 8px;
+}
+
+.team-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 6px;
+  color: #0f172a;
+}
+
+.team-role {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1e40af; /* professional blue */
+  margin-bottom: 10px;
+}
+
+.team-desc {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #374151;
+}
+/* TEAM CARD BASE */
+.team-card {
+  background-color: #f8fafc;
+  border: 1px solid #e5e7eb;
+  padding: 22px;
+  border-radius: 8px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  border-color: #2563eb; /* professional blue */
+}
+
+/* NAME EMPHASIS ON HOVER */
+.team-card:hover h3 {
+  color: #1e3a8a;
+}
+
+/* ROLE SLIGHT ACCENT */
+.team-card:hover .team-role {
+  color: #1d4ed8;
+}
+
+/* OPTIONAL: pointer cursor */
+.team-card {
+  cursor: default; /* change to pointer if clickable later */
+}
